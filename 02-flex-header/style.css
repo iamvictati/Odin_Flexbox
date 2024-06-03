@@ -1,0 +1,40 @@
+.header  {
+    font-family: 'Courier New', monospace;
+    background: papayawhip;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    border: solid 2px black;
+
+  }
+  
+  .logo {
+    font-size: 48px;
+    font-weight: 900;
+    color: tomato;
+    background: white;
+    padding: 4px 32px;
+    border: solid 2px black;
+    
+  }
+  
+  ul {
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 8px;
+    border: solid 2px black;
+  }
+  
+  a {
+    font-size: 22px;
+    background: white;
+    color: blue;
+    /* this removes the line under the links */
+    text-decoration: none;
+    border: solid 2px black;
+
+  }
