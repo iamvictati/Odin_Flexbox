@@ -5,8 +5,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 5px 10px;
-    border: solid 2px black;
-
   }
   
   .logo {
@@ -15,8 +13,6 @@
     color: tomato;
     background: white;
     padding: 4px 32px;
-    border: solid 2px black;
-    
   }
   
   ul {
@@ -26,7 +22,6 @@
     padding: 0;
     display: flex;
     gap: 8px;
-    border: solid 2px black;
   }
   
   a {
@@ -35,6 +30,4 @@
     color: blue;
     /* this removes the line under the links */
     text-decoration: none;
-    border: solid 2px black;
-
   }
