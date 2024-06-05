@@ -1,2 +1,2 @@
 Achieved Outcome
-![localhost_3000_03-flex-header-2_](https://github.com/iamvictati/Odin_Flexbox/assets/142629886/a168481a-60e4-48d7-94ae-54ed31d79a51)
+![localhost_3000_03-flex-header-2_ (1)](https://github.com/iamvictati/Odin_Flexbox/assets/142629886/f59c1d85-11f2-4542-9678-d6c39917d586)
