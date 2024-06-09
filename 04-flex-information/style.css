@@ -1,5 +1,7 @@
 body {
     font-family: 'Courier New', Courier, monospace;
+    /*This is more direct and efficient*/
+    text-align: center; 
   }
   
   img {
@@ -11,14 +13,16 @@ body {
   .title {
     font-size: 36px;
     font-weight: 900;
+    /* This is not necessary because the title doesn't need flex darling...
     display: flex; 
-    justify-content: center;
+    justify-content: center; 
+    */
     padding-bottom: 32px; 
   }
 
   .container { 
     display: flex; 
-    justify-content: space-evenly;
+    justify-content: center; /*space-evenly would have worked too depending on desired outer spacing.*/
     gap: 52px;
     flex-wrap: wrap;
     min-width: 0;
