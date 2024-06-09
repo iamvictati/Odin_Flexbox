@@ -16,7 +16,7 @@ body {
     padding-bottom: 32px; 
   }
 
-  .items { 
+  .container { 
     display: flex; 
     justify-content: space-evenly;
     gap: 52px;
@@ -24,7 +24,7 @@ body {
     min-width: 0;
   }
   
-  .item {
+  .info {
     max-width: 200px;
     text-wrap: wrap;
     text-align: center;
