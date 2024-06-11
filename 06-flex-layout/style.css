@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  display: flex; 
+  flex-direction: column; 
+  /*
+  NOT NECESSARY
+  Justify-content: space-between;
+  */
+}
+
+.header {
+    display: flex; 
+    justify-content: space-between; 
+    padding: 16px;
+}
+
+.content { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
+    gap: 16px;
+    flex: 1; /*I think I added this before*/
+}
+
+.footer { 
+    background-color: #eeeeee; 
+    display: flex; 
+    justify-content: space-between; 
+    /* 
+    NOT NECESSARY:
+    align-items: flex-end; 
+    flex-shrink: 0; 
+    */
+    padding: 16px;
+} 
+
+/* 
+TIP: Header and footer CSS could be joined into one: 
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+*/
+
+ul { 
+    list-style-type: none; 
+    padding: 0;
+    display: flex; 
+    gap: 16px;
+    margin: 0;
+}
+
+a { 
+    text-decoration: none; 
+    color: #666; 
+}
+
+img {
+  width: 600px;
+  /*
+  NOT NECESSARY:
+  align-self: center;
+  */
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+  padding: 8px 16px;
+}
+
+input {
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+  margin-bottom: 12px;
+
+}
