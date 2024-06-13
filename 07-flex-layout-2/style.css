@@ -13,7 +13,7 @@ body {
   font-size: 32px; /*✔*/
   font-weight: 900; /*✔*/
   padding: 0 16px; /*✔*/
-  /*flex: 1 1 0%;         NOT NECESSARY */
+  flex: 1 1 0%;  /* NOT NECESSARY */
  /* align-content: center;     BETTER USE FLEX */
 
   /* SOLUTION */
